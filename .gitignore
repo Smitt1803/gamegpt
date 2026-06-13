@@ -1,4 +1,57 @@
+# Virtual Environment
 venv/
+.venv/
+env/
+
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
 .ipynb_checkpoints/
-*.pyc
+
+# VS Code
+.vscode/
+
+# Environment Variables
+.env
+.env.*
+
+# Build / Distribution
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type Checkers
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# Machine Learning
+models/
+checkpoints/
+*.h5
+*.pt
+*.pth
+*.ckpt
+
+# Data Files (optional)
+data/
+datasets/
+
+# Temporary Files
+temp/
+tmp/
